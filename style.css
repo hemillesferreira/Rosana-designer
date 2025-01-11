@@ -23,12 +23,19 @@ div#logo{
 body{
     min-width: 600px;
 }
-nav{
+body nav{
     background-color: #AB5B6D;
-    padding-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: var(--cor1);
     height: 50px;
     text-decoration: none;
+}
+.painav{
+    flex-flow: row wrap;
+}
+.nav{
+    
 }
 nav > a {
     color:#FBFAFF;
@@ -36,6 +43,7 @@ nav > a {
     background-color: #AB5B6D;
     padding: 10px;
     border-radius: 30px;
+    
 }
 nav > a:hover{
     color: #AB5B6D;
@@ -43,8 +51,10 @@ nav > a:hover{
     transition: 0.5s;
 }
 header{
+    display: block;
     height: 600px;
-    width: 100%;
+    width: 70%;
+    margin: auto;
     background-image: url('imagens/designer-de-sobrancelhas.webp');
     background-position: left  ;
     background-repeat: no-repeat;
@@ -71,8 +81,10 @@ div#header{
 }
 section{
     background-image: linear-gradient(to left,#DB8172,#580A2E );
-    width: 100%;
+    width: 70%;
     height: 400px;
+    display: block;
+    margin: auto;
     box-shadow: 2px 2px 5px black;
 }
 section > h1{
@@ -90,51 +102,22 @@ section > h1{
     text-align: center;
     left: 70%;*
 }*/
-section div#card1{
-    display: inline-block;
+section div .paiservico{
+    text-align: center;
+    flex-flow: row wrap;
+}
+div.serv{
+    text-align: center;
     background-color: #FBFAFF;
-    height: 150px;
-    width: 150px;
-    margin: 20px;
+    height: 10px;
+    width: 20px;
+    margin: 15px;
     padding: 30px;
     box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, 0.233);
 }
-section div#card2{
-    display: inline-block;
-    background-color: #FBFAFF;
-    height: 150px;
-    width: 150px;
-    margin: 20px;
-    padding: 30px;
-    box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, 0.233);
-}
-section div#card3{
-    display: inline-block;
-    background-color: #FBFAFF;
-    height: 150px;
-    width: 150px;
-    margin: 20px;
-    padding: 30px;
-    box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, 0.233);
-}
-section div#card4{
-    display: inline-block;
-    background-color: #FBFAFF;
-    height: 150px;
-    width: 150px;
-    margin: 20px;
-    padding: 30px;
-    box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, 0.233);
-}
-section div#card5{
-    display: inline-block;
-    background-color: #FBFAFF;
-    height: 150px;
-    width: 150px;
-    margin: 20px;
-    padding: 30px;
-    box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, 0.233);
-}
+
+
+
 aside{
     background-color: #FBFAFF;
     background-size: cover;

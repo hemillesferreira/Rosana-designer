@@ -34,8 +34,11 @@ body nav{
 section.paiservico{
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
     align-items: center;
+    justify-content: space-around;
+}
+div#filho{
+
 }
 .nav{
     
@@ -122,7 +125,8 @@ div.serv{
 
 
 aside{
-    background-color: #FBFAFF;
+    display: flex;
+    flex-flow: row nowrap;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -136,8 +140,9 @@ aside > h1{
 }
 
 aside  img{
-    display: inline-block;
-    width: 150px;
+    flex-basis: 50px;
+    flex-shrink: 1;
+    flex-grow: 1;
     margin: 30px 10px 10px 10px;
     border-radius: 5px 5px 5px 5px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.219);

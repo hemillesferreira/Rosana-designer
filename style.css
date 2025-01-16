@@ -34,8 +34,6 @@ body nav{
 section.paiservico{
     display: flex;
     flex-flow: row wrap;
-    align-items: center;
-    justify-content: space-around;
 }
 div#filho{
 
@@ -109,7 +107,7 @@ section > h1{
     left: 70%;*
 }*/
 section div .paiservico{
-    text-align: center;
+    display: flex;
     flex-flow: row wrap;
 }
 div.serv{
